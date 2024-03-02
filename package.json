@@ -1,0 +1,23 @@
+{
+  "name": "arjun",
+  "version": "1.0.0",
+  "description": " managing food and nutrition data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:prod": " SET NODE_ENV=production&&nodemon index.js",
+    "start:dev": "SET NODE_ENV=development&&nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "slugify": "^1.6.6",
+    "validator": "^13.11.0"
+  }
+}
